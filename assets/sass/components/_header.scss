@@ -4,14 +4,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: $white;
 }
- 
-
- .header__title1, .header__title2 {
- margin-left: 10rem;
- 
- }
  
  .header__image {
      width:40px ;
@@ -23,9 +17,6 @@ header {
     flex-grow: 1;
     margin-left: 20px;
 }
-
-
-
 
 .header__auth {
     display: flex;

@@ -15,20 +15,17 @@
     position: absolute;
     top: 20%;
     left: 60%;
-    
-    
 }
 
 .hero__title {
-    font-size: 48px;
+    font-size: $text-size-xx-large;
     margin: 0;
     display: flex;
     width: 10%;
-    
 }
 
 .hero__subtitle {
-    font-size: 24px;
+    font-size: $text-size-large;
     margin: 5px 0 20px;
 }
 
@@ -43,12 +40,12 @@
 
 .stat {
     background-color: $white;
-    padding: 4px;
+    padding: 0px;
     z-index: 2;
 }
 
 .stat__number {
-    font-size: 24px;
+    font-size: $text-size-x-large;
     font-weight: bold;
 }
 .stat__text {
@@ -76,7 +73,7 @@ padding-right: 2px;
     }
 
 .hero__box--yellow {
-    background-color: #ffc107;
+    background-color: $Buff;
     position: absolute;
     padding: 40px 40px;
     width: 30px;

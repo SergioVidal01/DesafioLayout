@@ -4,11 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #fff;
-}
-
-.header__title1, .header__title2 {
-  margin-left: 10rem;
+  background-color: #ffffff;
 }
 
 .header__image {
@@ -44,14 +40,14 @@ header {
 }
 
 .hero__title {
-  font-size: 48px;
+  font-size: 40px;
   margin: 0;
   display: flex;
   width: 10%;
 }
 
 .hero__subtitle {
-  font-size: 24px;
+  font-size: 18px;
   margin: 5px 0 20px;
 }
 
@@ -65,12 +61,12 @@ header {
 
 .stat {
   background-color: #ffffff;
-  padding: 4px;
+  padding: 0px;
   z-index: 2;
 }
 
 .stat__number {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -98,7 +94,7 @@ header {
 }
 
 .hero__box--yellow {
-  background-color: #ffc107;
+  background-color: #F1DD7B;
   position: absolute;
   padding: 40px 40px;
   width: 30px;
