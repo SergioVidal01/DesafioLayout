@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.header__title1, .header__title2 {
+  margin-left: 10rem;
+}
+
+.header__image {
+  width: 40px;
+  height: 40px;
+}
+
+.header__nav {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.header__auth {
+  display: flex;
+  gap: 10px;
+}
+
+.hero {
+  position: relative;
+  text-align: left;
+}
+
+.hero__image {
+  width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+.hero__content {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+
+.hero__title {
+  font-size: 48px;
+  margin: 0;
+  display: flex;
+  width: 10%;
+}
+
+.hero__subtitle {
+  font-size: 24px;
+  margin: 5px 0 20px;
+}
+
+.hero__stats {
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 24%;
+  width: 27%;
+}
+
+.stat {
+  background-color: #ffffff;
+  padding: 4px;
+  z-index: 2;
+}
+
+.stat__number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat__text {
+  font-size: 16px;
+  padding-right: 2px;
+}
+
+.hero__overlay {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__box--blue {
+  background-color: #3C91E6;
+  padding: 110px 170px;
+  position: absolute;
+  top: 60%;
+  left: 24%;
+  z-index: 1;
+}
+
+.hero__box--yellow {
+  background-color: #ffc107;
+  position: absolute;
+  padding: 40px 40px;
+  width: 30px;
+  height: 20px;
+  top: 69%;
+  left: 50%;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.auth__button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.auth__button--register {
+  background-color: #4CA866;
+  color: #ffffff;
+  border: none;
+}
+
+.hero__cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 40px 40px;
+  background-color: #E4572E;
+  color: #ffffff;
+  text-decoration: none;
+  top: 58%;
+  right: 44%;
+  z-index: 3;
+  position: absolute;
+}
+
+.details {
+  padding: 20px;
+  width: 24%;
+}
+
+.details__title {
+  font-size: 30px;
+}
+
+.details__description {
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.details__images {
+  display: flex;
+  gap: 20px;
+}
+
+.details__image-box--map {
+  width: 25%;
+  position: absolute;
+  top: 64.7%;
+  left: 23%;
+  z-index: 2;
+}
+
+.details__image-box--coffee-beans {
+  width: 9%;
+  transform: rotate(90deg);
+  padding: 10px;
+  position: absolute;
+  top: 68%;
+  left: 44%;
+  z-index: 3;
+}
+
+.details__image-box--coffee-machine {
+  width: 30%;
+  padding: 7px;
+  position: absolute;
+  top: 64%;
+  left: 40%;
+}
+
+.details__image {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */

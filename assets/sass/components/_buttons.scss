@@ -1,0 +1,25 @@
+.auth__button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.auth__button--register {
+    background-color: $shiny-shamrock;
+    color: $white;
+    border: none;
+}
+
+.hero__cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 40px 40px;
+    background-color: $flame;
+    color: $white;
+    text-decoration: none;
+    top: 58%;
+    right: 44%;
+    z-index: 3;
+    position: absolute;
+}

@@ -1,0 +1,53 @@
+.details {
+    padding: 20px;
+    width: 24%;
+}
+
+.details__title {
+    font-size: $text-size-x-large;
+}
+
+.details__description {
+    font-size: $text-size-medium;
+    margin: 10px;
+    padding: 5px 20px;
+}
+
+.details__images {
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+
+.details__image-box--map {
+  width: 25%;
+    position: absolute;
+    top: 64.7%;
+    left: 23%;
+    z-index: 2;
+}
+
+.details__image-box--coffee-beans {
+    width: 9%;
+    transform: rotate(90deg);
+    padding: 10px;
+    position: absolute;
+    top: 68%;
+    left: 44%;
+    z-index: 3;
+}
+
+.details__image-box--coffee-machine {
+    width: 30%;
+    padding: 7px;
+    position: absolute;
+    top: 64%;
+    left: 40%;
+}
+
+.details__image {
+    width: 100%;
+    height: auto;
+}

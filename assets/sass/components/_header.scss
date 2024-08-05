@@ -1,0 +1,36 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+ 
+
+ .header__title1, .header__title2 {
+ margin-left: 10rem;
+ 
+ }
+ 
+ .header__image {
+     width:40px ;
+     height:40px;
+ }
+
+
+.header__nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+
+
+
+.header__auth {
+    display: flex;
+    gap: 10px;
+}
+
+
+
